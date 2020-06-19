@@ -69,10 +69,10 @@ nav ul li a:hover{border-top: 3px solid #000000;}
    border: 3px solid;padding: 7px 30px 7px 30px;
    margin-top: 20px;font-size: 15px; margin-top: 20px;}
 
-   #sect01 .container .btn:hover{background-color: #ccc;color: #000000;border: 3px solid #ccc;transition: 0.8s;}
+#sect01 .container .btn:hover{background-color: #ccc;color: #000000;border: 3px solid #ccc;transition: 0.8s;
+   padding: 7px 30px 7px 30px;}
 
-
-/*gray*/
+/*novidades gray*/
 
 #sect02{max-width: 80%;background-color: rgb(68, 64, 64);margin: 0 auto;margin-top:50px;
 padding: 50px 0px 50px 0px;height: 270px;}
@@ -98,4 +98,9 @@ position: relative;bottom: 90px;}
 
 #sect03 .container{max-width: 80%;margin: 0 auto;}
 
-#sect03 .container h2{padding-top: 50px;padding-bottom: 20px;font-size: 40px;}
+#sect03 .container h2{padding-top: 50px;padding-bottom: 50px;font-size: 40px;}
+
+#sect03 .container .red{width: 20px;height: 20px;
+   background-color: crimson;margin-right: 10px;}
+
+#sect03 .container .acessorios{display:flex;align-items: center;margin-right: 10px;width: 40%;}
