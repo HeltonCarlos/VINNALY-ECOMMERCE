@@ -100,7 +100,11 @@ position: relative;bottom: 90px;}
 
 #sect03 .container h2{padding-top: 50px;padding-bottom: 50px;font-size: 40px;}
 
+#sect03 .container .acessorios-flex{display: flex;}
+
+#sect03 .container .acessorios{display:flex;align-items: center;margin-right: 10px;}
+
 #sect03 .container .red{width: 20px;height: 20px;
    background-color: crimson;margin-right: 10px;}
 
-#sect03 .container .acessorios{display:flex;align-items: center;margin-right: 10px;width: 40%;}
+
