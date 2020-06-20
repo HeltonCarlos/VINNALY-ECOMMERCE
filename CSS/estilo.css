@@ -65,11 +65,13 @@ nav ul li a:hover{border-top: 3px solid #000000;}
 
 #sect01 .quadrado p{padding-top: 10px;}
 
-#sect01 .container .btn{background-color: #FFF;
-   border: 3px solid;padding: 7px 30px 7px 30px;
-   margin-top: 20px;font-size: 15px; margin-top: 20px;}
+#sect01 .container .btn{display: inline-block;
+   background-color: #FFF;
+   border: 3px solid rgb(146, 145, 145);
+   padding: 7px 30px 7px 30px;
+   font-size: 15px;margin-top: 20px; margin: 0 auto;margin-top:20px}
 
-#sect01 .container .btn:hover{background-color: #ccc;color: #000000;border: 3px solid #ccc;transition: 0.8s;
+#sect01 .btn:hover{background-color: #ccc;color: #000000;border: 3px solid #ccc;transition: 0.8s;
    padding: 7px 30px 7px 30px;}
 
 /*novidades gray*/
@@ -100,11 +102,21 @@ position: relative;bottom: 90px;}
 
 #sect03 .container h2{padding-top: 50px;padding-bottom: 50px;font-size: 40px;}
 
-#sect03 .container .acessorios-flex{display: flex;}
+#sect03 .container .acessorios-flex{display: flex;justify-content: space-between;padding: 20px;align-items: center;}
 
-#sect03 .container .acessorios{display:flex;align-items: center;margin-right: 10px;}
+#sect03 .container .acessorios-flex img{max-width: 500px;}
 
-#sect03 .container .red{width: 20px;height: 20px;
-   background-color: crimson;margin-right: 10px;}
+#sect03 .container .acessorios-flex .leitura{max-width: 500px;}
+
+#sect03 .container .acessorios-flex h3{font-size: 34px;margin-bottom: 25px}
+
+#sect03 .container .acessorios-flex p{font-size: 18px;margin-bottom: 25px;}
+
+#sect03 .container .acessorios-flex .btn{background-color: #FFF;
+   border: 3px solid rgb(124, 123, 123);padding: 7px 30px 7px 30px;
+   margin-top: 20px;font-size: 15px; margin-top: 50px;}
+
+
+   #sect03 .container .acessorios-flex .btn:hover{background-color: #ccc;color: #000000;border: 3px solid #ccc;transition: 0.8s;padding: 7px 30px 7px 30px;}
 
 
