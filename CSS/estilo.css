@@ -68,7 +68,7 @@ nav ul li a:hover{border-top: 3px solid #000000;}
 #sect01 .container .btn{display: inline-block;
    background-color: #FFF;
    border: 3px solid rgb(146, 145, 145);
-   padding: 7px 30px 7px 30px;
+   padding: 7px 30px 7px 30px;color:rgb(124, 123, 123);
    font-size: 15px;margin-top: 20px; margin: 0 auto;margin-top:20px}
 
 #sect01 .btn:hover{background-color: #ccc;color: #000000;border: 3px solid #ccc;transition: 0.8s;
@@ -113,10 +113,42 @@ position: relative;bottom: 90px;}
 #sect03 .container .acessorios-flex p{font-size: 18px;margin-bottom: 25px;}
 
 #sect03 .container .acessorios-flex .btn{background-color: #FFF;
-   border: 3px solid rgb(124, 123, 123);padding: 7px 30px 7px 30px;
+   border: 3px solid rgb(124, 123, 123);padding: 7px 30px 7px 30px;color:rgb(124, 123, 123);
    margin-top: 20px;font-size: 15px; margin-top: 50px;}
 
 
    #sect03 .container .acessorios-flex .btn:hover{background-color: #ccc;color: #000000;border: 3px solid #ccc;transition: 0.8s;padding: 7px 30px 7px 30px;}
 
 
+/*contato*/
+
+#sect04{max-width: 100%;}
+
+#sect04 .container{max-width: 80%;margin: 0 auto;}
+
+#sect04 .container h2{padding-top: 50px;padding-bottom: 50px;font-size: 40px;}
+
+#sect04 .container .formulario{display: flex;flex-direction: column;}
+
+#sect04 .container .formulario label{padding-bottom: 5px;font-size: 20px;}
+
+
+#sect04 .container .formulario input{padding: 5px; border: 2px solid black;font-size: 20px;max-width: 50%;margin-bottom: 20px;}
+
+
+#sect04 .container .formulario #text{padding: 5px; border: 2px solid black;font-size: 20px;max-width: 50%;padding-bottom: 100px;}
+
+#sect04 .container .formulario #btn3{display: inline-block;
+   color: #fff;
+   width: 120px;
+  border: 2px solid rgb(44, 44, 44);;
+   padding: 7px 30px 7px 30px;
+   font-size: 15px;margin-top: 20px;
+   background-color: rgb(44, 44, 44);
+   margin-top:20px;}
+
+   #sect04 .container .formulario #btn3:hover{
+      background-color: black;
+      transition: 0.8s;
+      border: 2px solid black;;
+   }
