@@ -126,17 +126,19 @@ position: relative;bottom: 90px;}
 
 #sect04 .container{max-width: 80%;margin: 0 auto;}
 
-#sect04 .container h2{padding-top: 50px;padding-bottom: 50px;font-size: 40px;}
+#sect04 .container h2{padding-top: 50px;padding-bottom: 20px;font-size: 40px;}
 
 #sect04 .container .formulario{display: flex;flex-direction: column;}
 
+#sect04 .container .container-form{
+   display:flex; justify-content: space-between;
+   align-items: center;}
+
 #sect04 .container .formulario label{padding-bottom: 5px;font-size: 20px;}
 
+#sect04 .container .formulario input{padding: 5px; border: 2px solid black;font-size: 20px;margin-bottom: 20px;width: 420px;}
 
-#sect04 .container .formulario input{padding: 5px; border: 2px solid black;font-size: 20px;max-width: 50%;margin-bottom: 20px;}
-
-
-#sect04 .container .formulario #text{padding: 5px; border: 2px solid black;font-size: 20px;max-width: 50%;padding-bottom: 100px;}
+#sect04 .container .formulario #text{padding: 5px; border: 2px solid black;font-size: 20px;padding-bottom: 100px;width: 420px;}
 
 #sect04 .container .formulario #btn3{display: inline-block;
    color: #fff;
@@ -147,8 +149,24 @@ position: relative;bottom: 90px;}
    background-color: rgb(44, 44, 44);
    margin-top:20px;}
 
-   #sect04 .container .formulario #btn3:hover{
+#sect04 .container .formulario #btn3:hover{
       background-color: black;
       transition: 0.8s;
-      border: 2px solid black;;
-   }
+      border: 2px solid black;}
+
+/*rodapé*/
+
+footer{max-width: 100%; background-color: black;margin-top: 20px}
+
+footer .container{max-width: 80%;color: #fff;margin: 0 auto;}
+
+footer .container h3{padding-top: 20px;padding-bottom: 20px;}
+
+footer .container ul {padding-bottom: 20px;margin-left: 10px;}
+
+footer .container ul li{list-style: none;}
+
+footer .container ul li a{text-decoration: none;color: #fff;}
+
+footer .container ul li a:hover{transition: 0.8s;
+opacity: 0.5;}
