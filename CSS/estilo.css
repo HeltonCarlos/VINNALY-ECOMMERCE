@@ -45,11 +45,11 @@ nav ul li a:hover{border-top: 3px solid #000000;}
 
 /*sect01*/
 
-#sect01{max-width: 100%;}
+#sect01{max-width: 100%;text-align: center;}
 
-#sect01 .container{max-width: 80%;margin: 0 auto;}
+#sect01 .container{max-width: 80%;margin: 0 auto;text-align: left;}
 
-#sect01 h2{padding-top: 50px;padding-bottom: 20px;font-size: 40px;}
+#sect01 h2{padding-top: 50px;padding-bottom: 20px;font-size: 40px;text-align: left;}
 
 #sect01 .btn1{display: inline-block;}
 
@@ -65,7 +65,7 @@ nav ul li a:hover{border-top: 3px solid #000000;}
 
 #sect01 .quadrado p{padding-top: 10px;}
 
-#sect01 .container .btn{display: inline-block;
+#sect01 .btn{display: inline-block; 
    background-color: #FFF;
    border: 3px solid rgb(146, 145, 145);
    padding: 7px 30px 7px 30px;color:rgb(124, 123, 123);
@@ -156,17 +156,15 @@ position: relative;bottom: 90px;}
 
 /*rodapé*/
 
-footer{max-width: 100%; background-color: black;margin-top: 20px}
+footer{max-width: 100%; background-color: black;margin-top: 20px;color: #fff;}
 
-footer .container{max-width: 80%;color: #fff;margin: 0 auto;}
+footer .container{max-width: 80%;margin: 0 auto;}
 
-footer .container h3{padding-top: 20px;padding-bottom: 20px;}
+footer .container h3{padding-top: 20px;}
 
-footer .container ul {padding-bottom: 20px;margin-left: 10px;}
-
-footer .container ul li{list-style: none;}
-
-footer .container ul li a{text-decoration: none;color: #fff;}
+footer .container ul li a{color: #fff;font-size: 12px;}
 
 footer .container ul li a:hover{transition: 0.8s;
-opacity: 0.5;}
+opacity: 0.5;border: none;}
+
+footer p {text-align: center;margin: 0 auto;padding-bottom: 20px;}
