@@ -172,6 +172,7 @@ position: relative;bottom: 90px;}
 
       @media(max-width:720px){
 #sect04 .container .container-form{flex-direction: column;}
+#sect04 .container iframe{max-width: 100%;}
       }
 
 /*rodapé*/
