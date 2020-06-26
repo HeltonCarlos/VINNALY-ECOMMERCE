@@ -128,10 +128,13 @@ position: relative;bottom: 90px;}
    border: 3px solid rgb(124, 123, 123);padding: 7px 30px 7px 30px;color:rgb(124, 123, 123);
    margin-top: 20px;font-size: 15px; margin-top: 50px;}
 
-
 #sect03 .container .acessorios-flex .btn:hover{background-color: #ccc;color: #000000;border: 3px solid #ccc;transition: 0.8s;padding: 7px 30px 7px 30px;}
 
-@media(max-width:720px){}
+@media(max-width:720px){
+   #sect03 .container h2{padding-bottom: 10px;}
+   #sect03 .container .acessorios-flex{flex-direction: column;}
+   #sect03 .container .acessorios-flex img{margin-top:20px;}  
+}
 
 /*contato*/
 
@@ -167,6 +170,10 @@ position: relative;bottom: 90px;}
       transition: 0.8s;
       border: 2px solid black;}
 
+      @media(max-width:720px){
+#sect04 .container .container-form{flex-direction: column;}
+      }
+
 /*rodapé*/
 
 footer{max-width: 100%; background-color: black;margin-top: 20px;color: #fff;}
@@ -181,3 +188,7 @@ footer .container ul li a:hover{transition: 0.8s;
 opacity: 0.5;border: none;}
 
 footer p {text-align: center;margin: 0 auto;padding-bottom: 20px;}
+
+@media(max-width:720px){
+   footer .container h3{text-align: center;}
+}
