@@ -63,6 +63,8 @@ nav ul li a:hover{border-top: 3px solid #000000;}
 
 #sect01 .quadrado{width: 220px;background-color: #ccc;margin-top: 30px; height: 230px;}
 
+#sect01 .quadrado{cursor: pointer;}
+
 #sect01 .quadrado img{max-width: 220px;}
 
 #sect01 .quadrado p{padding-top: 10px;}
