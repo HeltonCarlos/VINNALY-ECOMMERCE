@@ -1,13 +1,7 @@
-function envia(){
-    var name= document.querySelector('#nome')
-    var mail= document.querySelector('#email')
-    var text= document.querySelector('#text')
-    var resp= document.querySelector('#resposta')
+$('#01').click(function(){
+    $(this).attr("src","IMG/sofas03.png")
+})
 
-    var total=(name.value)
-
-    if(name=='' &&  mail=='' &&  text==''){
-        resp.innerHTML+=`Você esqueceu de preencher algum campo.`
-    }
-    
-}
+$('#02').click(function(){
+    $(this).attr("src","IMG/sofa04.png")
+})
