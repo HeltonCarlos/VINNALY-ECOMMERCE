@@ -1,5 +1,7 @@
-.venda{display: flex;}
-
+.venda{display: flex;width: 100%;}
+.venda .container{width: 80%;}
+.venda-telas{display:flex;margin-bottom: 20px; }
+.venda-telas img{ width:150px;margin-bottom: 20px;cursor: pointer;}
 .venda-inf{padding: 30px;}
 
 .descricao{width: 80%;margin: auto;}
