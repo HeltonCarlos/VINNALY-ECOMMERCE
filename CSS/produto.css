@@ -1,0 +1,8 @@
+.venda{display: flex;}
+
+.venda-inf{padding: 30px;}
+
+.descricao{width: 80%;margin: auto;}
+.descricao .container{margin: 0 auto;}
+.descricao h4{margin-bottom: 20px;}
+.desc-formatar{max-width: 500px;}
