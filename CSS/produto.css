@@ -4,7 +4,7 @@
 
 .venda-telas{display:flex;margin-bottom: 20px;}
 
-.venda-telas img{ width:150px;margin-bottom: 20px;cursor: pointer;}
+.venda-telas img{ width:150px;padding-bottom: 50px;cursor: pointer;}
 
 .venda-inf{margin-right: 150px;}
 
