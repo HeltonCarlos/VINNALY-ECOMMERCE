@@ -12,9 +12,9 @@ a{text-decoration: none;}
    margin-bottom: 20px;
    align-items: center;}
 
-.topo  .atend p{margin-right: 20px;display: inline-block;cursor: pointer;}
+.topo .atend p{margin-right: 20px;display: inline-block;cursor: pointer;}
 
-.topo  .atend :hover {border-bottom: 2px solid black;}
+.topo .atend :hover {border-bottom: 2px solid black;}
 
 .topo .redesocial span{margin-left: 20px;cursor: pointer;}
 
