@@ -2,22 +2,26 @@
 
 .venda .container{width: 80%;display: flex;justify-content: space-between;margin: 0 auto;}
 
+.venda-img{margin-left: 50px;}
+
 .venda-telas{display:flex;margin-bottom: 20px;}
 
-.venda-telas img{ width:150px;padding-bottom: 50px;cursor: pointer;}
+.venda-telas img{ width:100px;padding: 20px;cursor: pointer;border: 2px solid #000000;margin-right: 40px;}
 
-.venda-inf{margin-right: 150px;}
-
-.venda-inf h4{padding-top: 15px;}
+.venda-inf{margin-right: 200px;}
 
 .venda-inf h3{padding-top: 50px;}
 
-.venda-inf a{width: 300px;height: 100px; margin-top: 10px;
-background-color: black;color: #fff;
-padding: 12px 30px;margin-top: 10px;
+.venda-inf a{width: 300px;
+height: 100px;
+background-color: black;
+color: #fff;
+padding: 12px 40px;
 align-items: center;}
 
 .venda-inf a img{padding-top: 30px;}
+
+.venda-inf p{margin-top: 15px;}
 
 .descricao{width: 80%;margin: auto;}
 
