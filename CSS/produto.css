@@ -6,27 +6,31 @@
 
 .venda-telas{display:flex;margin-bottom: 20px;}
 
-.venda-telas img{ width:100px;padding: 20px;cursor: pointer;border: 2px solid #000000;margin-right: 40px;}
+.venda-telas img{ width:100px;padding: 20px;cursor: pointer;border: 2px solid #000000;
+    margin-left: 30px;}
 
 .venda-inf{margin-right: 200px;}
 
 .venda-inf h3{padding-top: 50px;}
 
-.venda-inf a{width: 300px;
-height: 100px;
-background-color: black;
+.venda-inf button{background-color: #000000;
+height: 50px;
+width:180px;
+border:none;
 color: #fff;
-padding: 12px 40px;
 align-items: center;}
 
-.venda-inf a img{padding-top: 30px;}
+.venda-inf button:hover{background-color: rgb(77, 77, 77);
+    transition: 1s;}
 
-.venda-inf p{margin-top: 15px;}
+.venda-inf button img{padding-right: 10px;}
+
+.venda-inf span{display: block;}
 
 .descricao{width: 80%;margin: auto;}
 
 .descricao .container{margin: 0 auto;}
 
-.descricao h4{margin-bottom: 50px;}
+.descricao h4{margin-bottom: 20px;margin-top:50px;}
 
 .desc-formatar{max-width: 550px;}
