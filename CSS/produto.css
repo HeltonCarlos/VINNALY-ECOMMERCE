@@ -11,7 +11,7 @@
 
 .venda-inf{margin-right: 200px;}
 
-.venda-inf h3{padding-top: 50px;}
+.venda-inf h3{padding-top: 50px;padding-bottom: 10px;}
 
 .venda-inf button{background-color: #000000;
 height: 50px;
@@ -31,6 +31,6 @@ align-items: center;}
 
 .descricao .container{margin: 0 auto;}
 
-.descricao h4{margin-bottom: 20px;margin-top:50px;}
+.descricao h4{margin-bottom: 20px;margin-top:50px;padding-bottom: 10px;}
 
 .desc-formatar{max-width: 550px;}
